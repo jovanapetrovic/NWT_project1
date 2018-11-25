@@ -9,16 +9,16 @@ Kreiran je custom Weather widget korišćenjem React.js biblioteke i Ant design 
 </p>
 <p>
 Za pokretanje aplikacije potrebno je:
-  <li>
-    <ul>Node.js (>=8.12)</ul>
-    <ul>npm (>=6.4.1)</ul>
-  </li>
+  <ul>
+    <li>Node.js (>=8.12)</li>
+    <li>npm (>=6.4.1)</li>
+  </ul>
 
 Unutar foldera weather-widget, pokrenuti sledeće komande za preuzimanje node modula i pokretanje frontend aplikacije:
-  <li>
-    <ul>npm install</ul>
-    <ul>npm start</ul>
-  </li>
+  <ul>
+    <li>npm install</li>
+    <li>npm start</li>
+  </ul>
  
 Otvoriti aplikaciju na putanji: http://localhost:3000
 </p>
@@ -33,16 +33,16 @@ A custom Weather widget was made with React.js library and Ant design components
 </p>
 <p>
 To run the app you need:
-  <li>
-    <ul>Node.js (>=8.12)</ul>
-    <ul>npm (>=6.4.1)</ul>
-  </li>
+  <ul>
+    <li>Node.js (>=8.12)</li>
+    <li>npm (>=6.4.1)</li>
+  </ul>
 
 Inside folder weather-widget, run following commands to install necessary node modules and to run the React app:
-  <li>
-    <ul>npm install</ul>
-    <ul>npm start</ul>
-  </li>
+  <ul>
+    <li>npm install</li>
+    <li>npm start</li>
+  </ul>
  
 View the app on path: http://localhost:3000
 </p>
