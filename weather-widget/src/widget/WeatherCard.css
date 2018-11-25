@@ -1,0 +1,14 @@
+.ant-card-head {
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	background-color: #1890ff;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header {
+	padding: 12px 0 12px;
+}
+
+.ant-collapse-borderless > .ant-collapse-item {
+	border-bottom: 0;
+}
