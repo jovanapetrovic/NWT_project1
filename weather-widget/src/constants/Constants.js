@@ -11,3 +11,5 @@ export const OPEN_WEATHER_API_URL =
 
 export const OPEN_WEATHER_ICON_URL =
 	"http://openweathermap.org/img/w/" + ICON_CODE_PARAM + ".png";
+
+export const BUGSTER_USERS_API_URL = "https://localhost:5001/api/Users";
