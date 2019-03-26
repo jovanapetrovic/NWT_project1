@@ -1,4 +1,4 @@
-import { OPEN_WEATHER_API_URL } from "../constants/Constants";
+import { OPEN_WEATHER_API_UR, BUGSTER_USERS_API_URL } from "../constants/Constants";
 
 const request = options => {
     const headers = new Headers({
@@ -27,5 +27,14 @@ export function getCurrentWeatherByCityName(cityName) {
     return request({
         url: CURRENT_WEATHER_BY_CITY_NAME_URL,
         method: "GET"
+    });
+}
+
+export function getUsersFromBugsterApi() {
+    console.log(BUGSTER_USERS_API_URL);
+    return request({
+        url: BUGSTER_USERS_API_URL,
+        method: "GET",
+        mode : "no-cors"
     });
 }
