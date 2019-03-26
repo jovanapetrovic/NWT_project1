@@ -1,4 +1,4 @@
-import { OPEN_WEATHER_API_UR, BUGSTER_USERS_API_URL } from "../constants/Constants";
+import { OPEN_WEATHER_API_URL, BUGSTER_USERS_API_URL } from "../constants/Constants";
 
 const request = options => {
     const headers = new Headers({
