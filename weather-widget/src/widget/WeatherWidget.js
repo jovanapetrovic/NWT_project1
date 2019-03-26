@@ -3,14 +3,29 @@ import "./WeatherWidget.css";
 import SearchWeatherForm from "./SearchWeatherForm";
 import WeatherCard from "./WeatherCard";
 import { OPEN_WEATHER_ICON_URL } from "../constants/Constants";
-import { getCurrentWeatherByCityName } from "../util/APIUtil";
+import { getCurrentWeatherByCityName, getUsersFromBugsterApi } from "../util/APIUtil";
 import { Alert, Row } from "antd";
 
 class WeatherWidget extends Component {
     state = {
         notFound: "",
-        city: ""
+        city: "",
+        users: []
     };
+
+    componentDidMount() {
+        getUsersFromBugsterApi()
+            .then(response => {
+                this.setState(state => ({
+                    ...state,
+                    users: response
+                }));
+                console.log("Fetched users: ", this.state.users);
+            })
+            .catch(error => {
+                console.log("Failed fetching users fom Buster local API.", error);
+            });
+    }
 
     getCityWeather = cityName => {
         // reset state
