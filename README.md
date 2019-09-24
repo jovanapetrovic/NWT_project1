@@ -1,30 +1,4 @@
-# NWT_projects
-
-<h3>Projekat br. 1: UI Framework, Ajax</h3>
-<h3>Widget kreiran u React.js biblioteci</h3>
-
-<h4>Opis projekta</h4>
-<p>
-Kreiran je custom Weather widget korišćenjem React.js biblioteke i Ant design komponenti (React UI framework). Koriste se podaci preuzeti sa besplatnog Open Weather API-ja. NPM je iskorišćen za preuzimanje svih zavisnosti, a podaci se preuzimaju u JSON formatu preko Fetch API-ja.
-</p>
-<p>
-Za pokretanje aplikacije potrebno je:
-  <ul>
-    <li>Node.js (>=8.12)</li>
-    <li>npm (>=6.4.1)</li>
-  </ul>
-
-Unutar foldera weather-widget, pokrenuti sledeće komande za preuzimanje node modula i pokretanje frontend aplikacije:
-  <ul>
-    <li>npm install</li>
-    <li>npm start</li>
-  </ul>
- 
-Otvoriti aplikaciju na putanji: http://localhost:3000
-</p>
-
-
-<h3>Project no. 1: UI Framework, Ajax</h3>
+<h3>Project: UI Framework, Ajax</h3>
 <h3>Widget made with React.js library</h3>
 
 <h4>Project description</h4>
